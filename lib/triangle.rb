@@ -9,7 +9,13 @@ class Triangle
   
   def kind(symbol)
     if symbol == :equilateral | if symbol == :isosceles | if symbol == :scalene
+      begin   
+    
+    
+    
+    else 
       
+  
   class TriangleError < StandardError
   
   end
