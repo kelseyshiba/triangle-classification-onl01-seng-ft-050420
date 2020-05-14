@@ -17,7 +17,7 @@ class Triangle
     else  
       begin 
       raise TriangleError  
-      rescue TriangleError
+      rescue TriangleError => error
       end
     end
   end
