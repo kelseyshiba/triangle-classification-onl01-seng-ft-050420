@@ -7,7 +7,8 @@ class Triangle
     @side3 = side3
   end
   
-  def kind(symbol)
+  def kind
+    
     if symbol == :equilateral | symbol == :isosceles | symbol == :scalene
       
       begin 
