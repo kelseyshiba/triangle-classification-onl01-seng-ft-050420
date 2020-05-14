@@ -16,7 +16,8 @@ class Triangle
   
 end
 #equilateral = side1 = side2 = side3 
-#isosceles = 
+#isosceles = side1 = side 2 | side 2 = side 3 | side 3 = side1
+#scalene
 
 
 #side1 + side 2 > side3
