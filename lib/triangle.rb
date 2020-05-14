@@ -18,7 +18,7 @@ class Triangle
 #side1 + side 2 > side3
 #side 2 + side 3 > side1
 #side 1 + side 3 > side 2
-
+#side > 0
 
 
 
