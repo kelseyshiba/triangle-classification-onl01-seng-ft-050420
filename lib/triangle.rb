@@ -8,8 +8,16 @@ class Triangle
   end
   
   def kind
+    :equilateral
+    :iscoceles = 
+    :scalene = 
     
-    if symbol == :equilateral | symbol == :isosceles | symbol == :scalene
+    if (side1 == side2 && side2 == side3)
+      return :equilateral
+    elsif (side1 == side2 | side2 == side3 | side3 == side1)
+      return :iscoceles
+    elsif (side1 + side2 > side3 | side2 + side3 > side1 | side1 + side3 > side2)
+      return :scalene
       
       begin 
       raise TriangleError  
